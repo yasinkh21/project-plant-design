@@ -1,6 +1,6 @@
 :root {
-  --mygreen: #3c7824;
-  --green:#623900 ;
+  --mygreen: #0c4e13;
+  --green:#6a4006 ;
   --arageek-sizes-full: 100%;
   --arageek-colors-chakra-border-color: #d3c8c849;
 }
@@ -13,11 +13,18 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  
+/* Keyword values */
+scrollbar-color: auto;
+
+/* <color> values */
+scrollbar-color:  green; /* Two valid colors.*/
+
 }
 .background-vid{
   position: relative;
   background-color:var(--mygreen);
-  height: 90vh;
+  height: 80vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -54,7 +61,7 @@ body {
   z-index: 1;
 }
 .background-vid h1{
-color: var(--mygreen);
+color: #fff;
 font-weight: bolder;
 }
 .proje-msj p{
@@ -68,6 +75,25 @@ font-weight: bolder;
   color: var(--mygreen);
 }
 
+.video-btn1{
+  background-color: var(--green) ;
+  color: #fff;
+  border: none;
+}
+
+.video-btn2{
+  background-color: var(--mygreen) ;
+  color: #fff;
+  border: none;
+}
+
+.video-btn1:hover{
+ background-color: #a05d00c2 !important;
+}
+
+.video-btn2:hover{
+background-color:#0c4e13c5;
+}
 
 #header {
   width: 100%;
@@ -253,12 +279,12 @@ footer {
 }
 
 .active {
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 0;
   padding: 10px 10px !important;
   color: #fff!important;
-  box-shadow: var(--green) 0 0 3px 1px;
-  background-color: #3c7824;
+  border-top:2px var(--green) solid ;
+  background-color: var(--mygreen);
 }  
 
 
@@ -384,4 +410,19 @@ label{
   .flotr-uldiv{
     margin-right: 0 ;
   }
+}
+
+.link-light-card{
+  color: #fff!important;
+  width: 100px;
+  padding: 7px;
+  border: #fff 0  solid;
+  border-radius: 5px;
+  background-color:var(--green) ;
+}
+.link-light-card:hover{
+  color: #fff!important;
+  border: #fff 0  solid;
+  border-radius: 5px;
+  background-color: var(--mygreen);
 }
