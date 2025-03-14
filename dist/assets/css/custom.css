@@ -1,8 +1,23 @@
 :root {
   --mygreen: #08903a;
-  --green:#6a4006 ;
+  --green:#fff ;
   --arageek-sizes-full: 100%;
   --arageek-colors-chakra-border-color: #d3c8c849;
+}
+.green{
+  color: var(--mygreen);
+}
+.f-color{
+  color: #565349;
+}
+.bg-green{
+ background-color:var(--mygreen);
+
+}
+.my-border{
+  border-bottom: 5px #ffffff9a solid;
+  border-radius: 100%;
+  max-width: 100%;
 }
 
 body {  
@@ -14,10 +29,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+i{
+ border-radius: 100%;
+}
 
 
 .navbar-brand-logo1{
-  max-width: 85px;
+  max-width: 80px;
   border-radius: 100%;
 }
 /*start video*/
@@ -60,12 +78,12 @@ body {
   opacity: 0.5;
   z-index: 1;
 }
-.background-vid h1{
+.background-vid h2{
 color: #fff;
 font-weight: bolder;
 }
 .proje-msj p{
-  color: var(--green); 
+  color: #565349; 
   font-size: medium;
   font-weight: 400;
 }
@@ -77,7 +95,7 @@ font-weight: bolder;
 
 .video-btn1{
   background-color: var(--green) ;
-  color: #fff;
+  color: var(--mygreen);
   border: none;
 }
 
@@ -88,18 +106,20 @@ font-weight: bolder;
 }
 
 .video-btn1:hover{
- background-color: #a05d00c2 !important;
+ background-color: #ffffffc1 !important;
+ color: var(--mygreen);
 }
 
 .video-btn2:hover{
-background-color:#0c4e13c5;
+background-color:#08903ab9;
+
 }
 /*end video*/
 
 #header {
   width: 100%;
   font-weight: 500;
-  background: var(--mygreen);
+  color: var(--mygreen);
 }
 
 .text-container {
@@ -199,7 +219,7 @@ background-color:#0c4e13c5;
   animation-duration: 4s;
   height: 900px;
   border-radius: 0.4375rem;
-  background-color: #fff;
+  background-color: var(--mygreen);
 }
 
 .btn-secondary {
@@ -207,7 +227,7 @@ background-color:#0c4e13c5;
   border: none !important;
   border-radius: 8px !important;
   background-color: var(--mygreen) !important;
-  color: #ffffff !important;
+  color: var(--mygreen)fff !important;
 }
 
 .btn-secondary:hover {
@@ -218,7 +238,7 @@ background-color:#0c4e13c5;
 }
 /*car btn*/
 .btn-secondary-card{
-  color: #fff !important;
+  color: var(--mygreen) !important;
   background-color: var(--mygreen) !important;
   border: rgba(113, 134, 157, 0.267) 1px solid !important;
   
@@ -226,7 +246,7 @@ background-color:#0c4e13c5;
 
 .btn-secondary-card:hover{
   background-color: var(--green) !important;
-  color: #ffffff !important;
+  color: var(--mygreen)fff !important;
   box-shadow: var(--mygreen) 0 1px 2px 0;
 
   }
@@ -238,7 +258,7 @@ background-color:#0c4e13c5;
   border-bottom: var(--mygreen) 1px solid;
   border-top-left-radius: 30px!important ;
   background-color: var(--mygreen) !important;
-  color: #ffffff !important;
+  color: var(--mygreen)fff !important;
 }
 
 .btn-secondary-searsh-metro-blog:hover{
@@ -258,7 +278,7 @@ background-color:#0c4e13c5;
 
 .btn-tag:hover{
   background-color: var(--mygreen) !important;
-  color: #ffffff !important;
+  color: var(--mygreen)fff !important;
 }
 /*go-to-btn*/
 
@@ -272,32 +292,31 @@ background-color:#0c4e13c5;
 
 .go-to-btn:hover{
 background-color: var(--green) !important;
-border: 1px #ffffff48 solid !important;
+border: 1px var(--mygreen)fff48 solid !important;
 }
 
 footer {
-  background-color: var(--green);
+  background-color: var(--mygreen);
 }
 
-.active {
+.myactive {
   border-radius: 6px;
   margin: 0;
   padding: 10px 10px !important;
-  color: #fff!important;
-  border-top:5px var(--green) solid ;
-  background-color: var(--mygreen);
+  color: var(--mygreen)!important;
+  border-top:5px var(--mygreen) solid ;
 }  
 
 
 
 .nav-link-style {
-  color: #E6E6E6 !important;
+  color: #565349 !important;
   margin: 0;
   padding: 10px 10px !important;
 }
 
 .nav-link-style:hover {
-  color: var(--green) !important;
+  color: var(--mygreen) !important;
 }
 
 @media only screen and (max-width: 691px) {
@@ -333,8 +352,8 @@ footer {
 
 .small-botun:hover {
   background-color: var(--green) !important;
-  color: #ffffff !important;
-  border: 1px #ffffff solid;
+  color: var(--mygreen) !important;
+  border: 1px var(--mygreen) solid;
 
 }
 
@@ -398,13 +417,13 @@ footer {
 }
 
 .social-media-i:hover{
-background-color: var(--green) !important;
-color: #ffffff !important;
+background-color: var(--mygreen) !important;
+color: var(--mygreen)fff !important;
 transform: scale(1.2);
 z-index: 0.9 !important;
 }
 label{
-  color: #E6E6E6 !important;
+  color: var(--mygreen) !important;
 }
 .flotr-uldiv{
   width: 22%; 
@@ -417,41 +436,61 @@ label{
 }
 
 .link-light-card{
-  color: #fff!important;
+  color: var(--mygreen)!important;
   width: 100px;
   padding: 7px;
-  border: #fff 0  solid;
+  border: var(--mygreen) 0  solid;
   border-radius: 5px;
-  background-color:var(--green) ;
+  background-color:#e5e5e5 ;
 }
 .link-light-card:hover{
-  color: #fff!important;
-  border: #fff 0  solid;
+  color: var(--green)!important;
+  border: var(--green) 0  solid;
   border-radius: 5px;
   background-color: var(--mygreen);
 }
-/*Start vidio last*/
-.background-vid-last{
-  position: relative;
-  background-color:var(--mygreen);
-  height: 50vh;
-  min-height: 15rem;
-  width: 100%;
-  overflow: hidden;
-}
-.background-vid-last video{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 
+
+/*Start vidio slid */
+.video-slid{
+  position: relative;
+  width: 100%;
+  height: 80vh;
 }
-/*end video last*/
+.video-slid video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit:cover ;
+  border-radius: 8px;
+}
+.video-slid .navigation{
+  position: absolute;
+  bottom:35%;
+  left: 5%;
+  transform: translate(-50px);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-slid .navigation li{
+  list-style: none;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 100%;
+  background-color:var(--mygreen);
+  padding: 3px 3px 0;
+}
+.video-slid .navigation li:hover{
+opacity: 1;
+background-color: #08903a56;
+}
+.video-slid .navigation li img{
+  width: 20px;
+}
+
+/*end video slid */
+
