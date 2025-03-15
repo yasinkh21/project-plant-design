@@ -40,7 +40,7 @@ i{
 
 
 .navbar-brand-logo1{
-  max-width: 100px;
+  max-width: 70px;
   border-radius: 100%;
 }
 .footer-logo{
@@ -315,7 +315,7 @@ footer {
   margin: 0;
   padding: 10px 10px !important;
   color: var(--mygreen)!important;
-  border-top:5px var(--mygreen) solid ;
+  border-bottom:5px var(--mygreen) solid ;
 }  
 
 
