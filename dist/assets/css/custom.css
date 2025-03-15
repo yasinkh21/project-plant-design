@@ -106,22 +106,26 @@ font-weight: bolder;
   background-color: var(--whait) ;
   color: var(--mygreen);
   border: none;
-}
+  border: var(--mygreen) 2px solid;
+  border-radius: 0px 100px / 120px;}
 
 .video-btn2{
   background-color: var(--mygreen) ;
   color: #fff;
   border: none;
+  border-radius: 0px 100px / 120px;
+  border: var(--whait) 1px solid;
 }
 
 .video-btn1:hover{
  background-color: #ffffffc1 !important;
  color: var(--mygreen);
+ border: var(--mygreen) 1px solid;
 }
 
 .video-btn2:hover{
 background-color:#08903ab9;
-
+border: var(--whait) 1px solid;
 }
 /*end video*/
 
@@ -481,14 +485,16 @@ footer {
   width: 100px;
   padding: 7px;
   border: var(--mygreen) 0  solid;
-  border-radius: 5px;
-  background-color:#e5e5e5 ;
+  border-radius: 10px 140px / 120px;
+  border: var(--mygreen) 1px solid;
+    background-color:#e5e5e5 ;
 }
 .link-light-card:hover{
   color: var(--whait)!important;
   border: var(--whait) 0  solid;
-  border-radius: 5px;
-  background-color: var(--mygreen);
+  border-radius:10px 140px / 120px;
+  border: wheat 1px solid;
+    background-color: var(--mygreen);
 }
 
 
